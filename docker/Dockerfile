@@ -20,6 +20,8 @@ RUN git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.gi
 
 RUN git clone https://github.com/ros-controls/gz_ros2_control.git ~/aprs_lab/aprs_ws/src/gz_ros2_control -b iron
 
+RUN git clone https://github.com/gazebosim/ros_gz.git ~/aprs_lab/aprs_ws/src/ros_gz -b iron
+
 RUN . /opt/ros/iron/setup.sh && \
     export GZ_VERSION=harmonic
 
